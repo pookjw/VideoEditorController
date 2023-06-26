@@ -4,7 +4,9 @@ UIVideoEditorController with custom presentation style
 
 ![](0.png)
 
-How to:
+You can bypass the presentation style validation using the following lldb commands.
+
+This only works with the iOS 16.5.1 SDK. If you are using a different SDK, you will need to change the offset. (`+248`)
 
 ```
 (lldb) image lookup -vn UIImagePickerEnsureViewIsInsidePopover
